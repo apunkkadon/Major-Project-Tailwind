@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header{
+    margin-top: 1em;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 2em;
+    z-index: 1;
+}
+header h3{
+    text-transform: uppercase;
+    
+}
+header h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+header ul {
+    display:flex;
+   
+}
+header ul li{
+    padding-right: 1em;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+}
+header ul li a i{
+   color: #f97316;
+}
+.power{
+    background-image:linear-gradient(rgba(0, 0, 0 ,0.7) 100%,transparent 0%) , url(./photo-Tailwind.jpeg);
+    /* position: absolute; */
+    width: 100%;
+    height:45em ;
+    background-position: top;
+    background-size: cover;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.gym{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    
+}
+.gym h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+.gym h2{
+    color: #f97316;
+    font-size: 35px;
+    padding-left: 8px;
+    font-weight: 400;
+}
+.power p{
+    padding-left: 30%;
+    padding-right: 22%;
+    padding-top: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.power button{
+    background-color: transparent;
+    color: #3B82f6;
+    padding: 1em;
+    margin-left: 46%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 25px;
+    border:1px solid #f97316;
+    transition: all 0.2s;
+    letter-spacing: normal;
+    text-align: center;
+}
+.power button:hover{
+    background-color: #f97316;
+    color: #fff; 
+}
+.about{
+    background-color: #000;
+    display: flex;
+    gap: 7em;
+    font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .img img{
+    padding-top: 6em;
+    padding-left: 7em;
+    width: 30em;
+    height: 45em;
+    padding-bottom: 8em;
+    border-radius: 8px;
+
+}
+
+
+.about-div h3{
+    color:#f97316;
+    font-size: 12.8px;
+    font-weight: 400;
+    padding-top: 25%;
+
+
+}
+.about-div h1{
+    color: #fff;
+    font-weight: 600;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing:normal;
+}
+.about-div p{
+    color: #fff;
+    padding-right: 33%;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing:normal;
+
+}
+.about-div ul {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing:normal;
+
+}
+.about-div ul li i{
+    color: #f97316;
+    padding-top: 1.5em;
+    padding-right: 9px;
+}
+.trainers-div1{
+  padding-top: 8em;
+ 
+}
+.trainers-div1 h1{
+    padding-left: 40%;
+    padding-right: 30%;
+    font-size: 36px;
+    letter-spacing:normal;
+    font-weight:600;
+}
+.trainers-div1 p{
+    line-height: 29.25px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 28%;
+    font-size: 18px;
+    letter-spacing:normal;
+    font-weight:400;
+}
+.trainers-div2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.box{
+    width: calc(100% / 3 - 11em);
+    padding-left: 10%;
+    text-align: center;
+}
+
+.box img{
+    width:18em;
+    border-radius: 5px;
+}
+.box h2{
+    font-size: 20px;
+    letter-spacing:normal;
+    line-height: 28px;
+    font-weight: 700;
+    padding-top: 1em;
+}
+.box p{
+    font-size: 14px;
+    letter-spacing:normal;
+    line-height: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #71717a;
+}
+.contact{
+    background-color: #000;
+    margin-top: 10%;
+    width: 100%;
+    height: 50em;
+    color: #fff;
+    padding-top: 20%;
+    /* transform: skew(5deg, 5deg);
+    position: relative; */
+}
+.contact h1{
+    font-size: 36px;
+    letter-spacing:normal;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact .askme{
+    font-size: 18px;
+    letter-spacing:normal;
+    line-height: 29.25px;
+    font-weight: 400;
+    padding-left: 27%;
+    padding-right: 27%;
+    text-align: center;
+}
+.contact form{
+    background-color: #f97316;
+    margin-top: 4%;
+    margin-left: 27%;
+    margin-right: 27%;
+    /* margin-bottom: 10%; */
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 8px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.contact form h2{
+    font-size: 24px;
+    letter-spacing:normal;
+    line-height: 32px;
+    font-weight: 600;
+} 
+.contact form p{
+    font-size: 16px;
+    letter-spacing:normal;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1.9em;
+}
+.dea input{
+    font-size: 14px;
+    letter-spacing:normal;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 2.8em;
+    /* border: 2px solid #71717a; */
+    border-radius: 5px;
+    transition: all 0.15s;
+    margin-top: 1em;
+   
+}
+.dea input:hover ,.dea textarea:hover{
+    border:2px solid #3B82f6;
+}
+.dea h3{
+    font-size: 12px;
+    letter-spacing:normal;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.dea textarea{
+    width: 100%;
+    height: 9em;
+    font-size: 14px;
+    letter-spacing:normal;
+    line-height: 20px;
+    font-weight: 400;
+    /* width: 100%;
+    height: 2.8em; */
+    /* border: 1px solid #71717a; */
+    border-radius: 5px;
+    transition: all 0.15s;
+    margin-top: 1em;
+}
+.contact form button{
+  margin-left: 40%;
+  font-size: 14px;
+  letter-spacing:normal;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 3em;
+  margin-top: 1.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+
+
+}
+.social{
+    background-color: #d4d4d8;
+    padding-left: 2em;
+    /* padding-bottom: 8em; */
+    /* border-top: 1px solid #71717a;
+    border-bottom: 1px #71717a; */
+}
+.social h1{
+    font-size: 30px;
+    letter-spacing:normal;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 1em;
+}
+.social p{
+    font-size: 18px;
+    letter-spacing:normal;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 0.2em;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5em;
+    font-size: 16px;
+    letter-spacing:normal;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 0.7em;
+}
+.social ul li{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10PX;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 5%;
+    padding-bottom: 8px;
+    color: #52525b;
+    font-size: 14px;
+    font-weight: 600;
+}
